@@ -3,6 +3,8 @@
 
 namespace IslamicNetwork\Calendar\Helpers;
 
+use IslamicNetwork\Calendar\Models\Holydays;
+
 class Calendar
 {
     public static function specialDays()
@@ -37,7 +39,7 @@ class Calendar
         return $days;
     }
 
-    public static function getHijriHolidays($day, $month)
+    public static function getHijriHolidaysDeprected($day, $month)
     {
         $holydays = [];
         $day = (int) $day;
@@ -48,6 +50,14 @@ class Calendar
             }
         }
         return $holydays;
+    }
+
+    public static function getHijriHolidays($day, $month)
+    {
+        $day = (int) $day;
+        $month = (int) $month;
+
+        return Holydays::getNames($day, $month);
     }
 
     public static function hijriWeekdays($gDay = '')
