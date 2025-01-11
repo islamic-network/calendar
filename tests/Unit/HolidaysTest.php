@@ -3,7 +3,6 @@ namespace IslamicNetwork\Calendar\Tests\Unit;
 
 use IslamicNetwork\Calendar\Helpers\Calendar;
 use PHPUnit\Framework\TestCase;
-use Exception;
 
 class HolidaysTest extends TestCase
 {

@@ -42,6 +42,18 @@ class Holydays
                 ]
             ]
         ],
+        6 => [
+            3 => [
+                'month' => 6,
+                'day' => 3,
+                'events' => [
+                    [
+                        'name' => 'Urs of Mawlana Shaykh Hisham Kabbani',
+                        'link' => '',
+                    ]
+                ]
+            ]
+        ],
         7 => [
             1 => [
                 'month' => 7,
