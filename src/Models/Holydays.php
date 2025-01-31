@@ -111,12 +111,80 @@ class Holydays
             ],
         ],
         8 => [
+            3 => [
+                'month' => 8,
+                'day' => 3,
+                'events' => [
+                    [
+                        'name' => 'Birth of Sayyidina Husayn ibn `Ali (ر)',
+                        'link' => '',
+                    ]
+                ]
+            ],
+            4 => [
+                'month' => 8,
+                'day' => 4,
+                'events' => [
+                    [
+                        'name' => 'Birth of Sayyidina Abbas ibn `Ali (ر)',
+                        'link' => '',
+                    ]
+                ]
+            ],
+            5 => [
+                'month' => 8,
+                'day' => 5,
+                'events' => [
+                    [
+                        'name' => 'Birth of Sayyidina `Ali ibn Husayn (ر)',
+                        'link' => '',
+                    ],
+                    [
+                        'name' => 'Urs of Imam Shamil al-Daghestani (ق)',
+                        'link' => '',
+                    ]
+                ]
+            ],
+            7 => [
+                'month' => 8,
+                'day' => 7,
+                'events' => [
+                    [
+                        'name' => 'Birth of Sayyidina Qasim ibn Hasan (ر)',
+                        'link' => '',
+                    ]
+                ]
+            ],
+            11 => [
+                'month' => 8,
+                'day' => 11,
+                'events' => [
+                    [
+                        'name' => 'Birth of Sayyidina Ali Akbar ibn Husayn (ر)',
+                        'link' => '',
+                    ]
+                ]
+            ],
             15 => [
                 'month' => 8,
                 'day' => 15,
                 'events' => [
                     [
                         'name' => 'Lailat-ul-Bara\'at',
+                        'link' => '',
+                    ],
+                    [
+                        'name' => 'Urs of Sayyidina Abu Yazid al-Bistami (ق)',
+                        'link' => '',
+                    ]
+                ]
+            ],
+            22 => [
+                'month' => 8,
+                'day' => 22,
+                'events' => [
+                    [
+                        'name' => 'Urs of Muhammad Usman Damani',
                         'link' => '',
                     ]
                 ]
