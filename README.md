@@ -1,3 +1,5 @@
+# This repository is no longer active. Please see https://community.islamic.network/d/140-removing-repositories-from-github.
+
 # Islamic / Hijri Calendar Calculation Library
 
 This typed PHP library is an enhancement on the existing Hijri Calculations in the Al Adhan API (https://aladhan.com). It adds new calculation methods
